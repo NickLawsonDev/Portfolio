@@ -1,0 +1,378 @@
+body
+{
+	/*background-image: url("bg.jpg");
+	background-size:     cover;                       <------ 
+    background-repeat:   no-repeat;
+    background-position: center center;*/
+    background-color: #cdcdcd;
+}
+
+.topimg
+{
+	height: 200px;
+	width: 100%;
+	display: inline-block;
+}
+
+.img1
+{
+	left: 100px;
+}
+
+h1
+{
+	font-size:34px;
+	  color:black;
+	  text-align:center;;
+	  letter-spacing:6px;
+	  font-weight:bold;
+	  text-transform:uppercase;
+	  line-height:1.2;
+}
+
+hr
+{
+	color: black;
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:106px;
+  border:0;
+}
+
+p
+{
+	text-align:center;
+  font-size:14px;
+  width:250px;
+  margin:30px auto;
+  color:black;
+  line-height:26px;
+  letter-spacing:0;
+  position:relative;
+  font-weight:300;
+}
+.navbarcontainer
+{
+	height: 40px;
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+.navbar
+{
+	list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #333;
+    padding-bottom: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#tut
+{
+	float: right;
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  display: none;
+  position: relative;
+}
+
+.row
+{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 2%;
+	font-size: 25;
+}
+.round-button {
+	display:inline-block;
+	position: relative;
+	width:10%;
+	padding-top: 2%;
+}
+.round-button-circle {
+	height: 100px;
+ 	position:relative;
+  	margin:0 auto;
+  	border:2px solid #f0f0f0;
+	background: white no-repeat center center;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius: 100px;
+	width: 100px;
+	cursor:pointer;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	font-size: 0%;
+}
+.round-button-circle:hover {
+	background:#000000;
+	text-decoration-color: white;
+	font-size: 40%;
+	margin-bottom: 80%;
+}
+
+.round-button-circle:hover .title 
+{
+	font-size: 110%;
+  display: block;
+}
+
+.round-button a{
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* About us */
+
+.about-us{
+  position:relative;
+  width:100%;
+  background: #cdcdcd;
+  z-index:10;  
+}
+
+.about-us .content{
+  position:relative;
+  width:900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.about-us h1{
+  font-size:34px;
+  color:black;
+  text-align:center;
+  margin-top:120px;
+  letter-spacing:6px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+
+}
+
+.about-us hr{
+  color: black;
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:106px;
+  border:0;
+
+}
+
+.about-us p.title{
+  color: black;
+  margin:40px auto;
+  width:300px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
+}
+
+.about-us h2{
+  text-align:center;
+  margin-top:50px;
+  font-size:26px;
+  color:black;
+  line-height:1.2;
+  letter-spacing:6px;
+  width:100%;
+  position:relative;
+  font-weight:400;
+}
+
+.about-us p{
+  text-align:center;
+  font-size:14px;
+  width:250px;
+  margin:30px auto;
+  color:black;
+  line-height:26px;
+  letter-spacing:0;
+  position:relative;
+  font-weight:300;
+}
+
+.about-us .column-one{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-one .circle-one{
+  height: 100px;
+  position:relative;
+  margin:0 auto;
+  border:2px solid #f0f0f0;
+  background: white no-repeat center center;
+  background-image: url("motivated.png");
+  background-size: cover;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius: 100px;
+  width: 100px;
+  cursor:pointer;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.about-us .column-one .circle-one:hover{
+  border:2px solid #000000;
+
+}
+
+.about-us .column-two{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-two .circle-two{
+  height: 100px;
+  position:relative;
+  margin:0 auto;
+  border:2px solid #f0f0f0;
+  background: white no-repeat center center;
+  background-image: url(hardwork.png);
+  background-size: cover;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius: 100px;
+  width: 100px;
+    cursor:pointer;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.about-us .column-two .circle-two:hover{
+  border:2px solid #000000;
+}
+
+
+.about-us .column-three{ 
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-three .circle-three{ 
+  height: 100px;
+  position:relative;
+  margin:0 auto;
+  border:2px solid #f0f0f0;
+  background: white no-repeat center center;
+  background-image: url(bad.png);
+  background-size: cover;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius: 100px;
+  width: 100px;
+  cursor:pointer;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.about-us .column-three .circle-three:hover{ 
+  border:2px solid #000000;
+}
